@@ -18,8 +18,9 @@ git pull
 cp -r ../.deploy_temp/* ./
 
 #Git push to master
+DEPLOYTIME=$(date)
 git add -A
-git commit -m "Deploy at ${date}"
+git commit -m "Deploy at ${DEPLOYTIME}"
 git push
 
 #Checkout dev
