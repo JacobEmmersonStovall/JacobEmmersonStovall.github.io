@@ -1,4 +1,5 @@
 <script>
+  //Links for website
   let links = [{
     href: "mailto:jacobestovall@gmail.com",
     text: "Email Me."
