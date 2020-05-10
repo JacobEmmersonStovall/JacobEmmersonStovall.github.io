@@ -32,3 +32,6 @@ git push
 #Checkout dev
 git checkout dev
 git pull
+
+#Delete deploy_temp after build process
+rm -r ../.deploy_temp
