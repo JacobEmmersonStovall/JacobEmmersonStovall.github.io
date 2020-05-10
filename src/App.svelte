@@ -41,7 +41,7 @@ a:hover{
   <p>Software Developer. Improvisor. Just a Person.</p>
   <ul>
     {#each links as {href, text}}
-      <li><a href>{text}</a></li>
+      <li><a {href} >{text}</a></li>
     {/each}
   </ul>
 </div>
