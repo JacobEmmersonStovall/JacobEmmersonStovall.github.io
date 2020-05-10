@@ -1,5 +1,4 @@
 <script>
-  //Links for website
   let links = [{
     href: "mailto:jacobestovall@gmail.com",
     text: "Email Me."
@@ -38,7 +37,7 @@ a:hover{
 </style>
 
 <div class="appDiv">
-  <img src="./images/Jacob_Vector.png" alt="Big Cartoon Headshot of Jacob Stovall" />
+  <img src="./images/Jacob_Vector.png" alt="Big Head of Jacob Stovall" />
   <p>Software Developer. Improvisor. Just a Person.</p>
   <ul>
     {#each links as {href, text}}
